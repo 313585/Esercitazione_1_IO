@@ -3,7 +3,7 @@
 #include <iomanip> 
 
 // funzione per mappare i punti tra [-1,2]
-double funmap(double x)
+double funmap(double x) 
 {
 return (-1.0+((x-1.0)*3.0/4.0));
 }
